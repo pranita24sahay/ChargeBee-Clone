@@ -1,0 +1,121 @@
+.App
+{
+  color:rgb(36, 36, 56);
+  font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+/*NavBar styling*/
+.Toolbar-grid
+{
+  display: grid;
+  padding-left: 30px;
+  padding-top: 20px;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: var(--ff_primary);
+}
+.navstyle
+{
+  display: inline-flex;
+  padding-left: 25px;
+  height: auto;
+  margin-bottom: 0px;
+}
+.nav-item-style
+{
+  padding-left: 20px;
+}
+.fa
+{
+  color:orangered
+}
+.btn
+{
+  border: none;
+  font-size: 1.5rem;
+  background-image: none;
+}
+.button-style-1
+{
+  background:transparent;
+  color: black;
+}
+.button-style-2
+{
+  background-image: none;
+  background-color: rgb(241, 101, 50);
+  color: aliceblue;
+}
+.btn:hover
+{
+  color:black;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+}
+/*Main content styling*/
+.main-content-1
+{
+  font-size:5rem;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+.purple1stline
+{
+  color:rgb(80, 10, 210) ;
+}
+.black2ndline
+{
+  color:rgb(0, 0, 10)
+}
+.main-content-2
+{
+  text-align: center;
+  position: relative;
+  top: 180px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.main-content-3
+{
+  position: relative;
+  top: 220px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 400px;
+
+}
+.button-purple
+{
+  background-color: rgb(80, 10, 210);
+  font-size: 1.75rem;
+  box-shadow: 0px,5px,black;
+}
+.button-trans
+{
+ background-color: transparent;
+ color: black;
+ font-size: 1.75rem;
+}
+.image1
+{
+  position: relative;
+  top:250px;
+}
+/*Footer*/
+.footer
+{
+  position: fixed;
+  width:100%;
+  font-size: 1.5rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  bottom: 0;
+  background-color:rgb(80, 10, 210);
+  color: white;
+  z-index: 10000;
+  font-weight: 400;
+  text-align: center;
+}
